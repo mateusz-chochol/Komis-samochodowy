@@ -1,0 +1,3 @@
+Id 0;Brand Mercedes;Model AMG;Price 100000;Year 2015;Power 250KM;Doors 5;Colour White;Geabox Automatic;Gears 6;Milleage 10000
+Id 1;Brand Mercedes;Model WojtekLesniak;Price 20;Year 1999;Power 25KM;Doors 6;Colour Black;Geabox Manual;Gears 5;Milleage 91238102
+Id 2;Brand Audi;Model A6;Price 300000;Year 2012;Power 300KM;Doors 5;Colour Red;Geabox Manual;Gears 6;Milleage 20000
