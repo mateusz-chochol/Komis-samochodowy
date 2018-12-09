@@ -52,7 +52,9 @@ function PrintCarInfo
 {
     local -n cars=$3
     local index=$(($1-1))
-    local numberOfCars=$(echo ${availableCars[-1]} | cut -d ";" -f ${format["Id"]} | cut -d " " -f 2)
+    local indices=${!cars[@]}
+    local numberOfCars=$(echo $indices | grep -o '[^ ]*$')
+    numberOfCars=$(($numberOfCars+1))
     
     if [ $1 -gt $numberOfCars ]; then
         echo "ERROR"
