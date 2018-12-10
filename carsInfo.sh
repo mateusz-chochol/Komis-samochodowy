@@ -89,7 +89,6 @@ function TransferCar
 {
     local -n firstTable=$1
     local -n secondTable=$2
-    local -i elementsCount=0
     
     local carIndex=$(($3-1))
     
